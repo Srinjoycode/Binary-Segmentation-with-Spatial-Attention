@@ -1,0 +1,6 @@
+torch 
+torchvision
+tqdm 
+numpy
+pillow
+albumentations

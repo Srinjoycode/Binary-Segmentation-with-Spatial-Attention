@@ -27,3 +27,15 @@ class DownDilatedConv(nn.Module):
 
     def forward(self, x):
         return self.conv(x)
+
+class AttentionModule(nn.Module):
+    def __init__(self, inputs, n_filters, in_channels, out_channels):
+        super(AttentionModule, self).__init__()
+
+        self.mean = torch.mean(inputs, [1,2], keepdim=True)
+        self.conv1 = nn.Conv2d(in_channels, n_filters, kernel_size=1)
+        self.batch_norm = nn.BatchNorm2d(-1)
+        
+    
+
+

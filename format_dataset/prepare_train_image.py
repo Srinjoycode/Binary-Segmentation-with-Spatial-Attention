@@ -1,7 +1,7 @@
 """
 Author: @ayushmankumar7
 
-Paste this file (prepare_train_mask.py) in "gtFine_trainvaltest/gtFine". 
+Paste this file (prepare_train_mask.py) in "leftImg8bit_trainvaltest/leftImg8bit". 
 There are 3 folder in this directory - test, train, val. 
 Paste the file inside the folder containing the 3 folders.
 
